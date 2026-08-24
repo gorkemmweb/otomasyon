@@ -1,4 +1,3 @@
-```yaml
 name: Claude Testi
 
 on:
@@ -13,4 +12,3 @@ jobs:
         run: |
           echo "GitHub Actions çalışıyor."
           echo "Claude entegrasyonu için sonraki adımı test ediyoruz."
-```
