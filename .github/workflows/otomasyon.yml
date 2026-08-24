@@ -1,14 +1,16 @@
-name: Otomasyon Testi
+```yaml
+name: Claude Testi
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 6 * * *"
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test
-        run: echo "OTOMASYON ÇALIŞIYOR 🚀"
+      - name: Claude entegrasyonunu kontrol et
+        run: |
+          echo "GitHub Actions çalışıyor."
+          echo "Claude entegrasyonu için sonraki adımı test ediyoruz."
+```
